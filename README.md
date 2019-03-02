@@ -1,5 +1,5 @@
 ![Quill Mention](static/quill-mention.png "Quill Mention")
-# Quill Mention
+# Quill Mention with vue2-editor support
 [![npm version](https://badge.fury.io/js/quill-mention.svg)](https://badge.fury.io/js/quill-mention)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
