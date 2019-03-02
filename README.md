@@ -14,11 +14,11 @@ https://afconsult.github.io/projects/quill-mention/
 ### Install
 Install with npm:
 ```bash
-npm install quill-mention --save
+npm i quill-mention-vue2-editor --save
 ```
 Install with [Yarn](https://yarnpkg.com/en/):
 ```bash
-yarn add quill-mention
+yarn add quill-mention-vue2-editor
 ```
 
 ### Example
