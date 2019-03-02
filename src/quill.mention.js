@@ -1,4 +1,4 @@
-import Quill from 'quill';
+import { Quill } from 'vue2-editor';
 import Keys from './constants/keys';
 import './quill.mention.css';
 import './blots/mention';

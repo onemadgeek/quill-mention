@@ -55,7 +55,16 @@ const quill = new Quill('#editor', {
             }
           },
         },
-      }
+      },
+      getMentions: function() {
+        // Dummy example to get all the mentions.
+        var marvelDelta = this.$refs.editor.quill.editor.delta
+        var mentionDelta = _.filter(marvelDelta.ops, 'insert.mention'); // lodash
+        var mentions = _.map(mentionDelta, function(value){
+            return _.toInteger(_.get(value, 'insert.mention.id'));
+        });
+        return mentions;
+      },
     });
 ```
 
